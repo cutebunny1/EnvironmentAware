@@ -1,0 +1,85 @@
+
+<!DOCTYPE HTML>
+<html  lang="en">
+  <head>
+    <link rel="stylesheet" href='index.css'/>
+    <script src="http://www.webglearth.com/v2/api.js"></script>
+    <script>
+      function initialize() {
+        var options = {atmosphere: true, center: [0, 0], zoom: 0};
+        var earth = new WE.map('earth_div', options);
+        WE.tileLayer('http://tileserver.maptiler.com/nasa/{z}/{x}/{y}.jpg', {
+          minZoom: 0,
+          maxZoom: 5,
+          attribution: 'NASA'
+        }).addTo(earth);
+      var marker = WE.marker([-11, 25],'a1.png').addTo(earth)
+      marker.bindPopup("<button><a href = 'p.html'>click here</a><button/>");
+      var marker2 = WE.marker([50, 25], 'treed.png').addTo(earth)
+      marker.bindPopup("<button><a href = 'p.html'>click here</a><button/>");
+      var marker3 = WE.marker([90, 135], 'polar.png').addTo(earth)
+      marker.bindPopup("<button><a href = 'p.html'>click here</a><button/>");
+      var marker4 = WE.marker([40, 74], 'people.png').addTo(earth)
+      marker.bindPopup("<button><a href = 'p.html'>click here</a><button/>");
+      // var markerCustom = WE.marker(([50, -9]), 'trees2.png', 150, 100).addTo(earth);
+      // document.getElementById("marker").onclick = function() {myFunction()};
+      //
+      // function myFunction() {
+      // document.getElementById("marker").src = 'p.html'}
+      }
+
+    </script>
+    <style>
+      html, body{padding: 0; margin: 0;}
+      #earth_div{top: 0; right: 0; bottom: 0; left: 0;
+                 background-image:url('sky.gif'); position: absolute !important;}
+      #buttons {position: absolute; top:10px; left: 10px;}
+      .col-sm-6{position:absolute;padding:10px;margin:7px;;top:7;right:7;bottom:10;left:10; }
+
+    </style>
+      <title>WebGL Earth API: Satellite</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body  onload="initialize()">
+      <div class="container">
+        <div id="earth_div"></div>
+      </div>
+
+          <!-- Sidebar -->
+          <div class="d-flex" id="wrapper">
+
+   <!-- Sidebar -->
+   <div class="bg-light border-right" id="sidebar-wrapper">
+     <div class="sidebar-heading">Start Bootstrap </div>
+     <div class="list-group list-group-flush">
+       <div id='green'> <div class="list-group-item list-group-item-action bg-light"><h1>Welcome<h1></div></div>
+       <div class='fill'><img src='l.gif' class="list-group-item list-group-item-action bg-light" ></div>
+       <div class="list-group-item list-group-item-action bg-light" style="background-color:powderblue;">
+         <h6> Navigate around the globe to explore important environmental issues<h6>
+        <p>
+          Once you've found an interesting issue click on the link in the announcement to be brought to a page with more information
+        </p>
+
+     </div>
+   </div>
+   <!-- /#sidebar-wrapper -->
+
+
+   <!-- /#page-content-wrapper -->
+
+ </div>
+ <!-- /#wrapper -->
+
+ <!-- Bootstrap core JavaScript -->
+ <script src="vendor/jquery/jquery.min.js"></script>
+ <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+ <!-- Menu Toggle Script -->
+
+  </body>
+</html>

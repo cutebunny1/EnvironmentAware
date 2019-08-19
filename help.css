@@ -55,3 +55,18 @@
 #text{
     position
 }
+
+.col-md{
+  font-size:17px;
+}
+
+#margin{
+  margin-bottom:20px;
+}
+
+#margin1{
+  margin-left:0px;
+  margin-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
