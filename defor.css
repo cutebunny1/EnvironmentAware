@@ -1,6 +1,6 @@
 #help{
   border-radius: 25px;
-    background: seagreen;
+    background: rgb(116, 48, 14);
     padding: 20px;
     width: 1100px;
     height: 100px;
@@ -11,14 +11,23 @@
     font-size: 40px;
 }
 
-#kripa{
-  background-image: url('ppl2.jpg')
+
+
+#navPic{
+  background-image: url("back3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
 #nav{
-  background-image: url('ppl.jpg');
+  /* background-image: url('back3.png') !important; */
   font-size: 20px;
   padding-bottom: 20px;
   padding-top:15px;
+}
+
+#lily{
+  margin-right: 20px;
 }
 
 .navbar navbar-light{
@@ -32,7 +41,7 @@
 }
 
 .navbarNav{
-  color:white !important;
+  color:blue !important;
 }
 
 .navbar-toggler-icon{
