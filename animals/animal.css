@@ -1,0 +1,68 @@
+#help{
+  border-radius: 25px;
+    background: black;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    margin-top: 350px;
+    color:white;
+    font-family:bradley hand;
+    text-align: center;
+    font-size: 40px;
+}
+h1{
+  color: limegreen;
+}
+
+.citation a{
+  font-size: 20px;
+}
+.jumbotron {
+  margin-bottom: 0px !important;
+}
+
+#navPic{
+  background-image: url("cropTree1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#nav{
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top:15px;
+  background-color: black;
+  height: 100px;
+}
+
+.navbar navbar-light{
+  border-radius: 25px !important;
+  padding-bottom:100px;
+
+}
+
+#white{
+  color:lightblue;
+  font-weight: bolder;
+}
+
+.navbarNav{
+  color:white !important;
+}
+
+.navbar-toggler-icon{
+  color:white !important;
+}
+
+.navbar navbar-light{
+  width:
+}
+
+.row{
+  background-color: orange;
+}
+
+
+.middle{
+  text-align:center;
+}
