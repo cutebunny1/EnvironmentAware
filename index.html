@@ -3,7 +3,8 @@
 <html  lang="en">
   <head>
     <link rel="stylesheet" href='index.css'/>
-    <script src="http://www.webglearth.com/v2/api.js"></script>
+    <script src="api.js"></script>
+    <!-- <script src="http://www.webglearth.com/v2/api.js"></script> -->
     <script>
       function initialize() {
         var options = {atmosphere: true, center: [0, 0], zoom: 0};
@@ -14,13 +15,17 @@
           attribution: 'NASA'
         }).addTo(earth);
       var marker = WE.marker([-11, 25],'a1.png').addTo(earth)
-      marker.bindPopup("<button><a href = 'p.html'>click here</a><button/>");
+      marker.bindPopup("<button><a href = 'Environment1.html'>click here</a></button>");
       var marker2 = WE.marker([50, 25], 'treed.png').addTo(earth)
-      marker.bindPopup("<button><a href = 'p.html'>click here</a><button/>");
+      marker.bindPopup("<button><a href = 'defor.html'>click here</a></button>");
       var marker3 = WE.marker([90, 135], 'polar.png').addTo(earth)
-      marker.bindPopup("<button><a href = 'p.html'>click here</a><button/>");
+      marker.bindPopup("<button><a href = 'Environment1.html'>click here</a></button>");
       var marker4 = WE.marker([40, 74], 'people.png').addTo(earth)
-      marker.bindPopup("<button><a href = 'p.html'>click here</a><button/>");
+      marker.bindPopup("<button><a href = 'help.html'>click here</a></button>");
+      var marker5 = WE.marker([46.5197, 6.6323], 'marker.png').addTo(earth)
+      marker.bindPopup("<button><a href = 'p.html'>More about Greta </a></button>");
+      var marker6 = WE.marker([40, 74], 'people.png').addTo(earth)
+      marker.bindPopup("<button><a href = 'p.html'>click here</a></button>");
       // var markerCustom = WE.marker(([50, -9]), 'trees2.png', 150, 100).addTo(earth);
       // document.getElementById("marker").onclick = function() {myFunction()};
       //
