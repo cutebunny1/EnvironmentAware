@@ -1,0 +1,57 @@
+#help{
+  border-radius: 25px;
+    background: seagreen;
+    padding: 20px;
+    width: 1100px;
+    height: 100px;
+    margin-top:100px;
+    color:white;
+    font-family:helvetica body;
+    text-align: center;
+    font-size: 40px;
+}
+
+#kripa{
+  background-image: url('ppl2.jpg')
+}
+#nav{
+  background-image: url('ppl.jpg');
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top:15px;
+}
+
+.navbar navbar-light{
+  border-radius: 25px !important;
+  padding-bottom:100px;
+
+}
+
+#white{
+  color:white;
+}
+
+.navbarNav{
+  color:white !important;
+}
+
+.navbar-toggler-icon{
+  color:white !important;
+}
+
+.navbar navbar-light{
+  width:
+}
+
+.row{
+/*  background-color: darkgreen;*/
+}
+
+#size{
+    width: 980px;
+    height: 500px;
+}
+
+#text{
+    position
+}
