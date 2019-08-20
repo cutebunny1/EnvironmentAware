@@ -55,3 +55,61 @@
 .row{
   background-color: darkgreen;
 }
+
+#help{
+  border-radius: 25px;
+    background: rgb(116, 48, 14);
+    padding: 20px;
+    width: 1100px;
+    height: 100px;
+    margin-top:100px;
+    color:white;
+    font-family:bradley hand;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+#navPic{
+  background-image: url("back3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#nav{
+  /* background-image: url('back3.png') !important; */
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top:15px;
+}
+
+#lily{
+  margin-right: 20px;
+}
+
+.navbar navbar-light{
+  border-radius: 25px !important;
+  padding-bottom:100px;
+
+}
+
+#white{
+  color:white;
+}
+
+.navbarNav{
+  color:blue !important;
+}
+
+.navbar-toggler-icon{
+  color:white !important;
+}
+
+.navbar navbar-light{
+  width:
+}
+
+.row{
+  background-color: darkgreen;
+}
